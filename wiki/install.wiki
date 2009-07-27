@@ -13,7 +13,7 @@ Please note that you have to respect the installation order to get VBox Web Cons
 
 *Warning:* If you already installed an older version (or beta) of VirtualBox on your machine, please re-install it using the latest version at [http://www.virtualbox.org/] because of the missing VirtualBox Python bindings.
 
-To execute Python scripts everywhere on your system (and you need to for getting VBox Web Console to work later) you need to add you Python installation directory to your PATH variable.
+To execute Python scripts everywhere on your system (and you need to for getting VBox Web Console to work later) you need to add you Python installation directory to your PATH environment variable.
 
 == Get VBox Web Console ==
  
