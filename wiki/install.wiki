@@ -8,7 +8,7 @@
 Please note that you have to respect the installation order to get VBox Web Console working! For example you first have to install Python before installing the extensions - otherwise the extensions installer won't find Python on your system.
 
  # In the first step download and install *Python 2.6* from [http://python.org/download/] 
- # Now download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]
+ # Only on Windows: Now download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]
  # Last but not least download and install at least *VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "VirtualBox Python Support" on the installer's feature page.
 
 *Warning:* If you already installed an older version (or beta) of VirtualBox on your machine, please re-install it using the latest version at [http://www.virtualbox.org/] because of the missing VirtualBox Python bindings.
@@ -53,4 +53,3 @@ If you're done using/testing VBoxWeb console, press CTRL+C in your console windo
 *Question:* VBox Web Console wants to run on port 80, but this port is already taken of "insert-your-favorite-app-here". What to do now?
 
 *Answer:* Go to your "root" directory of VBoxWeb and edit the file called "VBoxWeb.conf". Go to the line "server.socket_port = 80" and just change the "80" to a port you want to set VBoxWeb running on. Then restart the VBoxWeb server application.
-
