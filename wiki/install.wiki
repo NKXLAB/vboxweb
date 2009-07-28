@@ -9,13 +9,13 @@ Please note that you have to respect the installation order to get VBox Web Cons
 
  # In the first step download and install *Python 2.6* from [http://python.org/download/] 
  # Only on Windows: Now download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]
- # Last but not least download and install at least *VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "VirtualBox Python Support" on the installer's feature page.
+ # Last but not least download and install at least *!VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "!VirtualBox Python Support" on the installer's feature page.
 
 To execute Python scripts everywhere on your system (and you need to for getting VBox Web Console to work later) you need to add you Python installation directory to your PATH environment variable.
 
 *Warning:* If you already installed an older version (or beta) of !VirtualBox on your machine, please re-install it using the latest version at [http://www.virtualbox.org/] because of the missing !VirtualBox Python bindings. 
 
-If, for whatever reasons, you want to reinstall the !VirtualBox Python bindings manually, you have to open a command line in the !VirtualBox installation directory (e.g. "C:\Program Files\Sun\xVM VirtualBox\") and go to the "sdk\install" sub directory. There you have to execute
+If, for whatever reasons, you want to reinstall the !VirtualBox Python bindings manually, you have to open a command line in the !VirtualBox installation directory (e.g. "C:\Program Files\Sun\xVM !VirtualBox\") and go to the "sdk\install" sub directory. There you have to execute
 
 <code>python vboxapisetup.py install</code>
 
@@ -52,7 +52,7 @@ If you're done using/testing VBoxWeb console, press CTRL+C in your console windo
 
 *Question:* The VBox Python binding does not seem to work! What's wrong?
 
-*Answer:* If you installed Python in the directory "C:\Python26", check out if the directory "C:\Python26\Lib\site-packages\vboxapi" exists. If this doesn't exist, re-install !VirtualBox with "VirtualBox Python Support" selected.
+*Answer:* If you installed Python in the directory "C:\Python26", check out if the directory "C:\Python26\Lib\site-packages\vboxapi" exists. If this doesn't exist, re-install !VirtualBox with "!VirtualBox Python Support" selected.
 
 ----
 
