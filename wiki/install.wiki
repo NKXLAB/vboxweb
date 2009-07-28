@@ -54,7 +54,7 @@ in your command line (you have to be in your "root" directory -- see paragraph a
 
 Now open your browser (currently only IE 7+8 and Firefox are tested) and type in the URL
 
-<code>localhost</code>
+<code>localhost:8080</code>
 
 to see VBox Web Console in action. Depending on whether you already have some virtual machines configured yet you should see them in the VM list on the left side.
 
