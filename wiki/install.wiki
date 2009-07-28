@@ -5,11 +5,21 @@
 
 == Prepare the environment ==
 
-Please note that you have to respect the installation order to get VBox Web Console working! For example you first have to install Python before installing the extensions - otherwise the extensions installer won't find Python on your system.
+Please note that you have to respect the installation order to get VBox Web Console working! For example you first have to install Python before installing extensions - otherwise the extensions installers won't find Python on your system.
 
- # In the first step download and install *Python 2.6* from [http://python.org/download/] 
- # Only on Windows: Now download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]
- # Last but not least download and install at least *!VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "!VirtualBox Python Support" on the installer's feature page.
+If you don't have Python installed, download and install *Python 2.6* from [http://python.org/download/].
+
+=== Windows ===
+
+ * Download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]
+
+=== Mac OS X ===
+
+ * Download the Python module *SimpleJSON* from [http://pypi.python.org/pypi/simplejson/] and install it.
+
+=== All platforms ===
+
+Last but not least download and install at least *!VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "!VirtualBox Python Support" on the installer's feature page
 
 To execute Python scripts everywhere on your system (and you need to for getting VBox Web Console to work later) you need to add you Python installation directory to your PATH environment variable.
 
@@ -19,7 +29,7 @@ If, for whatever reasons, you want to reinstall the !VirtualBox Python bindings 
 
 <code>python vboxapisetup.py install</code>
 
-to install the bindings.
+to install the bindings (again).
 
 == Get VBox Web Console ==
  
