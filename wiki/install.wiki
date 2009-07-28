@@ -15,7 +15,9 @@ If you don't have Python installed, download and install *Python 2.6* from [http
 
 === Mac OS X ===
 
- * Download the Python module *SimpleJSON* from [http://pypi.python.org/pypi/simplejson/] and install it.
+ * Download the Python module *SimpleJSON* from [http://pypi.python.org/pypi/simplejson/], change to the extraction directory and install it with
+
+<code>python setup.py install</code>
 
 === All platforms ===
 
