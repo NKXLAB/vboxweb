@@ -11,7 +11,7 @@ If you don't have Python installed, download and install *Python 2.6* from [http
 
 === Windows ===
 
- * Download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]
+ * Download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]. You need the corresponding packet for your installed Python version, e.g. "pywin32-214.win32-py2.5.exe" when you got Python 2.5 or "pywin32-214.win32-py2.6.exe" for 2.6. Be sure to grab the .exe installers and not the zip file to avoid installation errors because of missing dependencies.
 
 === Mac OS X ===
 
