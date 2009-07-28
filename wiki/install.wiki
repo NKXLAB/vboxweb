@@ -1,7 +1,7 @@
 #summary Install VirtualBox Web Console
 #labels Phase-Deploy
 
-= How to install/setup VirtualBox Web Console =
+= How to install/setup !VirtualBox Web Console =
 
 == Prepare the environment ==
 
@@ -11,7 +11,7 @@ Please note that you have to respect the installation order to get VBox Web Cons
  # Only on Windows: Now download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]
  # Last but not least download and install at least *VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "VirtualBox Python Support" on the installer's feature page.
 
-*Warning:* If you already installed an older version (or beta) of VirtualBox on your machine, please re-install it using the latest version at [http://www.virtualbox.org/] because of the missing VirtualBox Python bindings.
+*Warning:* If you already installed an older version (or beta) of !VirtualBox on your machine, please re-install it using the latest version at [http://www.virtualbox.org/] because of the missing !VirtualBox Python bindings.
 
 To execute Python scripts everywhere on your system (and you need to for getting VBox Web Console to work later) you need to add you Python installation directory to your PATH environment variable.
 
@@ -46,7 +46,7 @@ If you're done using/testing VBoxWeb console, press CTRL+C in your console windo
 
 *Question:* The VBox Python binding does not seem to work! What's wrong?
 
-*Answer:* If you installed Python in the directory "C:\Python26", check out if the directory "C:\Python26\Lib\site-packages\vboxapi" exists. If this doesn't exist, re-install VirtualBox with "VirtualBox Python Support" selected.
+*Answer:* If you installed Python in the directory "C:\Python26", check out if the directory "C:\Python26\Lib\site-packages\vboxapi" exists. If this doesn't exist, re-install !VirtualBox with "VirtualBox Python Support" selected.
 
 ----
 
