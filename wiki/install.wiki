@@ -68,6 +68,6 @@ If you're done using/testing VBoxWeb console, press CTRL+C in your console windo
 
 ----
 
-*Question:* VBox Web Console wants to run on port 80, but this port is already taken of "insert-your-favorite-app-here". What to do now?
+*Question:* VBox Web Console wants to run on port 8080, but this port is already taken of "insert-your-favorite-app-here". What to do now?
 
-*Answer:* Go to your "root" directory of VBoxWeb and edit the file called "VBoxWeb.conf". Go to the line "server.socket_port = 80" and just change the "80" to a port you want to set VBoxWeb running on. Then restart the VBoxWeb server application.
+*Answer:* Go to your "root" directory of VBoxWeb and edit the file called "VBoxWeb.conf". Go to the line "server.socket_port = 8080" and just change the "8080" to a port you want to set VBoxWeb running on. Then restart the VBoxWeb server application.
