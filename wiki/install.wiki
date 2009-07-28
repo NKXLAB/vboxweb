@@ -11,9 +11,15 @@ Please note that you have to respect the installation order to get VBox Web Cons
  # Only on Windows: Now download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]
  # Last but not least download and install at least *VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "VirtualBox Python Support" on the installer's feature page.
 
-*Warning:* If you already installed an older version (or beta) of !VirtualBox on your machine, please re-install it using the latest version at [http://www.virtualbox.org/] because of the missing !VirtualBox Python bindings.
-
 To execute Python scripts everywhere on your system (and you need to for getting VBox Web Console to work later) you need to add you Python installation directory to your PATH environment variable.
+
+*Warning:* If you already installed an older version (or beta) of !VirtualBox on your machine, please re-install it using the latest version at [http://www.virtualbox.org/] because of the missing !VirtualBox Python bindings. 
+
+If, for whatever reasons, you want to reinstall the !VirtualBox Python bindings manually, you have to open a command line in the !VirtualBox installation directory (e.g. "C:\Program Files\Sun\xVM VirtualBox\") and go to the "sdk\install" sub directory. There you have to execute
+
+<code>python vboxapisetup.py install</code>
+
+to install the bindings.
 
 == Get VBox Web Console ==
  
@@ -30,7 +36,7 @@ The above command gets all the sources of VBox Web Console into a directory call
 Now that you installed and set up all the required components, let's try out starting up 
 VBox Web Console the first time! To do so, first start the server part of VBox Web Console by entering
 
-<code>python VBoxWeb.py</code>
+<code>python VBoxWebSrv.py</code>
 
 in your command line (you have to be in your "root" directory -- see paragraph above). If nothing went wrong the server now is running.
 
