@@ -19,6 +19,12 @@ If you don't have Python installed, download and install *Python 2.6* from [http
 
 <code>python setup.py install</code>
 
+=== Linux ===
+
+If your Linux distribution does not ship Python 2.6 (check with {{{python --version}}}), you have to install *SimpleJSON* from your package repository. For Debian/Ubuntu systems, enter
+
+<code>sudo apt-get install python-simplejson</code>
+
 === All platforms ===
 
 Last but not least download and install at least *!VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "!VirtualBox Python Support" on the installer's feature page
