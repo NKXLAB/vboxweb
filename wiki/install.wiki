@@ -11,7 +11,7 @@ If you don't have Python installed, download and install *Python 2.6* from [http
 
 === Windows ===
 
- * Download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]. You need the corresponding packet for your installed Python version, e.g. "pywin32-214.win32-py2.5.exe" when you got Python 2.5 or "pywin32-214.win32-py2.6.exe" for 2.6. Be sure to grab the .exe installers and not the .zip file to avoid installation errors because of missing dependencies.
+ * Download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]. You need the corresponding packet for your installed Python version, e.g. "pywin32-214.win32-py2.5.exe" when you got Python 2.5 or "pywin32-214.win32-py2.6.exe" for 2.6. Be sure to grab the .exe installers and not the .zip file to avoid installation errors because of missing dependencies. Also make sure to either grab the x86 or the amd64 build, depending on whether you're running a 32-bit or 64-bit version of Windows.
 
 === Mac OS X ===
 
@@ -37,7 +37,7 @@ If, for whatever reasons, you want to reinstall the !VirtualBox Python bindings 
 
 <code>python vboxapisetup.py install</code>
 
-to install the bindings (again).
+to install the bindings (again). Note that on Windows Vista and later, you have to execute this command from an administrator prompt.
 
 == Get VBox Web Console ==
  
