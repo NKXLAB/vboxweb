@@ -5,17 +5,17 @@
 
 == Prepare the environment ==
 
-Please note that you have to respect the installation order to get VBox Web Console working! For example you first have to install Python before installing extensions - otherwise the extensions installers won't find Python on your system.
+Please note that you have to respect the installation order to get VirtualBox Web Console working! For example you first have to install Python before installing extensions - otherwise the extensions installers won't find Python on your system.
 
 If you don't have Python installed, download and install *Python 2.6* from [http://python.org/download/].
 
 === Windows ===
 
- * Download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]. You need the corresponding packet for your installed Python version, e.g. "pywin32-214.win32-py2.5.exe" when you got Python 2.5 or "pywin32-214.win32-py2.6.exe" for 2.6. Be sure to grab the .exe installers and not the .zip file to avoid installation errors because of missing dependencies. Also make sure to either grab the x86 or the amd64 build, depending on whether you're running a 32-bit or 64-bit version of Windows.
+ * Download and install the *Python Win32 Extensions* package from [http://python.net/crew/mhammond/win32/Downloads.html]. You need the corresponding packet for your installed Python version, e.g. "pywin32-214.win32-py2.5.exe" when you got Python 2.5 or "pywin32-214.win32-py2.6.exe" for 2.6. Be sure to grab the .exe installers and not the .zip file to avoid installation errors because of missing dependencies. Note that the PyWin page currently does not work correctly on 64-bit host systems so the VirtualBox Web Console will not work on 64-bit Windows hosts at this point. We are working with the PyWin maintainer so resolve this issue.
 
 === Mac OS X ===
 
- * Download the Python module *SimpleJSON* from [http://pypi.python.org/pypi/simplejson/], change to the extraction directory and install it with
+ * Unless you are running Mac OS 10.6 (Snow Leopard), you have to download the Python module *SimpleJSON* from [http://pypi.python.org/pypi/simplejson/], change to the extraction directory and install it with
 
 <code>python setup.py install</code>
 
@@ -27,7 +27,7 @@ If your Linux distribution does not ship Python 2.6 (check with {{{python --vers
 
 === All platforms ===
 
-Last but not least download and install at least *!VirtualBox 3.x* from [http://www.virtualbox.org/] and make sure you selected the option "!VirtualBox Python Support" on the installer's feature page
+Last but not least download and install at least *!VirtualBox 3.0.6* from [http://www.virtualbox.org/] and make sure you selected the option "!VirtualBox Python Support" on the installer's feature page
 
 To execute Python scripts everywhere on your system (and you need to for getting VBox Web Console to work later) you need to add you Python installation directory to your PATH environment variable.
 
