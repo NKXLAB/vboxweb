@@ -33,7 +33,7 @@ To execute Python scripts everywhere on your system (and you need to for getting
 
 *Warning:* If you already installed an older version (or beta) of !VirtualBox on your machine, please re-install it using the latest version at [http://www.virtualbox.org/] because of the missing !VirtualBox Python bindings. 
 
-If, for whatever reasons, you want to reinstall the !VirtualBox Python bindings manually, you have to open a command line in the !VirtualBox installation directory (e.g. "C:\Program Files\Sun\xVM !VirtualBox\") and go to the "sdk\install" sub directory. There you have to execute
+If, for whatever reasons, you want to reinstall the !VirtualBox Python bindings manually, you have to open a command line in the !VirtualBox installation directory (e.g. "C:\Program Files\Oracle\!VirtualBox\") and go to the "sdk\install" sub directory. There you have to execute
 
 <code>python vboxapisetup.py install</code>
 
